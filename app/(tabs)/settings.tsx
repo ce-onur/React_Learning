@@ -1,11 +1,12 @@
+import { ScreenWrapper } from "@/components/ScreenWrapper";
 import React from "react";
-import { Text, View } from "react-native";
+import { Text } from "react-native";
 
 const Settings = () => {
   return (
-    <View>
+    <ScreenWrapper>
       <Text>Settings</Text>
-    </View>
+    </ScreenWrapper>
   );
 };
 
